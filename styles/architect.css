@@ -175,6 +175,9 @@ main>section {
 .sponsor-companies img {
     filter: grayscale(100%);
 }
+.our-sponsors{
+    margin-bottom: 130px;
+}
 
 /* More Features Section Styles  */
 .features-more .section-title {
@@ -215,6 +218,20 @@ main>section {
     width: 100%;
 }
 
+/* Footer Related Styles */
+footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+footer p{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    text-align: center;
+    padding: 35px 400px;
+    font-size: 1.2rem;
+}
+
 /* responsive media query */
 /* small size device */
 @media screen and (max-width : 576px) {
@@ -222,7 +239,8 @@ main>section {
     .navbar,
     .nav-links,
     .features,
-    .features-more {
+    .features-more,
+    footer {
         flex-direction: column;
     }
 
@@ -252,6 +270,10 @@ main>section {
         margin-left: 20px;
         margin-top: 20px;
     }
+    footer p{
+        padding: 5px;
+        font-size: 1rem;
+    }
 }
 
 /* medium size device */
@@ -260,7 +282,8 @@ main>section {
     .navbar,
     .nav-links,
     .features,
-    .features-more {
+    .features-more,
+    footer {
         flex-direction: column;
     }
 
@@ -286,6 +309,10 @@ main>section {
         margin-left: 20px;
         margin-top: 20px;
     }
+    footer p{
+        padding: 5px;
+        font-size: 1rem;
+    }
 }
 
 /* large size device */
@@ -294,7 +321,8 @@ main>section {
     .navbar,
     .nav-links,
     .features,
-    .features-more {
+    .features-more,
+    footer {
         flex-direction: column;
     }
 
@@ -319,5 +347,9 @@ main>section {
     #experience-badge {
         margin-left: 20px;
         margin-top: 20px;
+    }
+    footer p{
+        padding: 5px;
+        font-size: 1rem;
     }
 }
